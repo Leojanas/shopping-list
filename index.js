@@ -13,6 +13,7 @@ function addItem() {
           '</button>' +
         '</div>' +
       '</li>')
+      $(this).find('#shopping-list-entry').val('');
     }
     )
 }
